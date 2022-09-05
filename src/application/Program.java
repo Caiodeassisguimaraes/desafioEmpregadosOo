@@ -50,19 +50,8 @@ public class Program {
 	}
 
 	private static void showReport(Department department) {
-		
-		System.out.println(department);
 
-		/*StringBuilder sb = new StringBuilder();
-		sb.append("FOLHA DE PAGAMENTO: \n");
-		sb.append("Departamento Vendas = R$" + department.payroll()+ "\n");
-		sb.append("Pagamento realizado no dia" + department.getPayDay() + "\n");
-		sb.append("Funcionários: \n");
-		
-		for (Employee employeeList : employees) {
-			
-		}
-		sb.append(department.getName());*/
+		System.out.println(department);
 
 	}
 
